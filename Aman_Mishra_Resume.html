@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman_Mishra_Resume</title>
+    <!-- Load Google Font Inter for clean visual appearance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset & base settings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            background-color: #f3f4f6;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #111827;
+            /* Dark Gray/Off-black */
+            background-color: #ffffff;
+            line-height: 1.4;
+            padding: 0.5in;
+            max-width: 8.5in;
+            /* Standard Letter width */
+            margin: 30px auto;
+            font-size: 10.5pt;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border-radius: 6px;
+        }
+
+        /* Hyperlink styling */
+        a {
+            color: #111827;
+            text-decoration: none;
+            border-bottom: 1px dotted #374151;
+            transition: color 0.15s ease;
+        }
+
+        a:hover {
+            color: #2563eb;
+            border-bottom-color: #2563eb;
+        }
+
+        /* Header Section styling */
+        .resume-header {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .resume-header h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #111827;
+            margin-bottom: 6px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 9pt;
+            color: #4b5563;
+        }
+
+        .contact-links span {
+            color: #9ca3af;
+        }
+
+        /* Section structure */
+        .section {
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #111827;
+            border-bottom: 1px solid #111827;
+            padding-bottom: 2px;
+            margin-bottom: 8px;
+        }
+
+        /* Entry structure */
+        .entry {
+            margin-bottom: 10px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: 600;
+            color: #111827;
+            font-size: 10.5pt;
+        }
+
+        .entry-subheader {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-style: italic;
+            color: #374151;
+            font-size: 9.5pt;
+            margin-bottom: 4px;
+        }
+
+        /* Bullet points list style */
+        .bullets {
+            list-style-type: square;
+            margin-left: 20px;
+            font-size: 9.5pt;
+            color: #374151;
+        }
+
+        .bullets li {
+            margin-bottom: 3px;
+        }
+
+        /* Skill lines */
+        .skill-group {
+            margin-bottom: 4px;
+            font-size: 9.5pt;
+        }
+
+        .skill-group strong {
+            font-weight: 600;
+            color: #111827;
+        }
+
+        /* Print Settings to force single-page format */
+        @media print {
+            html {
+                background-color: #ffffff;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+                font-size: 10pt;
+                max-width: 100%;
+                border: none;
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .section {
+                margin-bottom: 12px;
+                page-break-inside: avoid;
+            }
+
+            .bullets li {
+                margin-bottom: 2px;
+            }
+
+            /* Disable dotted links on print */
+            a {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Block -->
+    <header class="resume-header">
+        <h1>Aman Mishra</h1>
+        <div class="contact-links">
+            <a href="mailto:amanmishra15.08.2005@gmail.com"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 3px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>amanmishra15.08.2005@gmail.com</a>
+            <span>|</span>
+            <a href="https://github.com/amanmishra2005" target="_blank"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 3px; fill: #111827;"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>github.com/amanmishra2005</a>
+            <span>|</span>
+            <a href="https://www.linkedin.com/in/amanmishra2005/" target="_blank"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 3px; fill: #111827;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>linkedin.com/in/amanmishra2005</a>
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="section">
+        <h2 class="section-title">Education</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span>Shri Mata Vaishno Devi University</span>
+                <span>Expected May 2028</span>
+            </div>
+            <div class="entry-subheader">
+                <span>Bachelor of Technology in Computer Science & Engineering</span>
+                <span>CGPA: 8.22/10</span>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span>Woodland Academy</span>
+                <span>May 2024</span>
+            </div>
+            <div class="entry-subheader">
+                <span>Senior Secondary Certificate (Class XII - CBSE)</span>
+                <span>Percentage: 82.6%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Technical Projects Section -->
+    <section class="section">
+        <h2 class="section-title">Engineering Projects</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span>Podium — AI-Powered Mock Interview Coach</span>
+            </div>
+            <div class="entry-subheader">
+                <span>Technologies: React, Node.js, Express, MongoDB, Gemini API, Web Speech API</span>
+                <span></span>
+            </div>
+            <ul class="bullets">
+                <li>Engineered a full-stack mock interview application simulating realistic SDE behavioral and technical rounds based on target job roles and resume details, serving as a comprehensive prep platform.</li>
+                <li>Integrated <strong>Google Gemini API (gemini-2.5-flash)</strong> to dynamically generate context-aware questions, optimizing prompt payloads to reduce average API processing latency by 35%.</li>
+                <li>Implemented client-side speech processing using browser-native <strong>Web Speech API</strong> for real-time speech-to-text response capture, slashing microphone input latency by 45%.</li>
+                <li>Developed a robust backend resume parser utilizing Mammoth and PDF-parse, maintaining 98% parsing accuracy across unstructured PDF and DOCX uploads to seed candidate profile parameters.</li>
+                <li>Architected a scorecard feedback engine that analyzes candidates across 5 metrics in under 3 seconds, delivering automated strengths, weaknesses, and overall scores.</li>
+                <li>Secured application sessions using JWT token authentication stored in HttpOnly cookies, eliminating XSS and CSRF session hijacking vulnerabilities.</li>
+            </ul>
+        </div>
+
+
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skill-group">
+            <strong>Languages:</strong> JavaScript, TypeScript, Python, Java, C
+        </div>
+        <div class="skill-group">
+            <strong>Frontend Frameworks & Libraries:</strong> React, Next.js, HTML5, CSS3, API
+        </div>
+        <div class="skill-group">
+            <strong>Backend Technologies & Protocols:</strong> Node.js, Express.js, Socket.io
+        </div>
+        <div class="skill-group">
+            <strong>Databases:</strong> MongoDB, Mongoose ODM
+        </div>
+        <div class="skill-group">
+            <strong>Developer Tools:</strong> Git, GitHub, VS Code
+        </div>
+    </section>
+
+    <!-- Certifications & Coursework Section -->
+    <section class="section">
+        <h2 class="section-title">Certifications & Leadership</h2>
+        <ul class="bullets">
+            <li><strong>Core Coursework:</strong> Data Structures & Algorithms, Object-Oriented Programming (Java).</li>
+            <li><strong>Technical Tools:</strong> Version Control (Git/GitHub), REST API Testing (Postman), JWT
+                Authentication flows.</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
