@@ -127,6 +127,22 @@ I am a **Computer Science & Engineering Student** at **Shri Mata Vaishno Devi Un
       </div>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px; background: #0d1117;">
+      <h3>📊 <a href="https://github.com/amanmishra2005/CodeMerge">CodeMerge</a></h3>
+      <p>A unified developer dashboard aggregating metrics from LeetCode, GfG, HackerRank, and Codeforces, utilizing Google Gemini AI for profile evaluations and roadmaps.</p>
+      <div style="margin-top: 10px;">
+        <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express-black?style=flat-square&logo=express" alt="Express" />
+        <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb" alt="MongoDB" />
+        <img src="https://img.shields.io/badge/Gemini-8E75C2?style=flat-square&logo=google" alt="Gemini" />
+      </div>
+    </td>
+    <td width="50%" valign="top" style="border: 0px; background: transparent;">
+      <!-- Empty slot for grid alignment -->
+    </td>
+  </tr>
 </table>
 
 ---
@@ -166,7 +182,7 @@ This repository hosts a premium, highly animated, and recruiter-optimized develo
 - Uses clean web typography (Inter font) with standard semantic tags (`<h2>`, `<ul>`, `<li>`) for clean parser ingestion.
 - Embedded inline SVGs for links (email, GitHub, LinkedIn).
 - Resets shadows and borders during printing/PDF-export via print stylesheets.
-- Outlines **Podium Mock Interview Coach** project details utilizing action-focused STAR methodology.
+- Outlines **Podium Mock Interview Coach** and **CodeMerge Developer Dashboard** project details utilizing action-focused STAR methodology.
 
 ### 🚀 Setup & Live Preview
 1. Clone this repository:
