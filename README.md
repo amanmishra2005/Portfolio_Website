@@ -116,8 +116,9 @@ I am a **Computer Science & Engineering Student** at **Shri Mata Vaishno Devi Un
   <tr>
     <td width="50%" valign="top">
       <h3>✨ <a href="https://github.com/amanmishra2005/Portfolio_Website">Interactive Portfolio Website</a></h3>
-      <p>Source code for my premium personal portfolio featuring advanced keyframe animations, glassmorphism UI widgets, and a responsive contact pipeline.</p>
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5" />
+      <p>Source code for my premium personal portfolio built with React and Vite, featuring advanced keyframe animations, glassmorphism UI widgets, and a responsive contact pipeline.</p>
+      <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react" />
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
     </td>
