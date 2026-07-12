@@ -39,7 +39,7 @@ function Footer() {
             <div className="footer-saas-column">
               <h4 className="footer-saas-title font-display">Projects</h4>
               <ul className="footer-saas-links">
-                <li><a href="#projects">Portfolio Hub</a></li>
+                <li><a href="https://github.com/amanmishra2005/Podium_AI_Interview_Coach" target="_blank" rel="noopener noreferrer">Podium</a></li>
                 <li><a href="https://github.com/amanmishra2005/CodeMerge" target="_blank" rel="noopener noreferrer">CodeMerge</a></li>
                 <li><a href="https://github.com/amanmishra2005" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
               </ul>
