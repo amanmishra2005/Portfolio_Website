@@ -1146,3 +1146,206 @@ nav {
         padding: 25px;
     }
 }
+
+/* Professional SaaS Footer styling for Portfolio */
+.footer-saas {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    padding: 60px 20px 40px 20px;
+    font-family: var(--font-body);
+}
+
+.footer-saas-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.footer-saas-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.footer-saas-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-saas-logo {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-saas-logo-icon {
+    color: var(--accent-color);
+}
+
+.footer-saas-desc {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    max-width: 320px;
+}
+
+.footer-saas-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 99px;
+    background-color: rgba(255, 90, 31, 0.05);
+    border: 1px solid rgba(255, 90, 31, 0.15);
+    color: var(--accent-color);
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.footer-saas-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-saas-title {
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.footer-saas-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-saas-links button, .footer-saas-links a {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    transition: color var(--transition-fast);
+}
+
+.footer-saas-links button:hover, .footer-saas-links a:hover {
+    color: var(--accent-color);
+}
+
+.footer-saas-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
+
+/* Modal styling for Legal docs */
+.legal-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(8, 9, 12, 0.85);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.legal-modal-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 600px;
+    max-height: 80vh;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: modalPopIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modalPopIn {
+    0% { transform: scale(0.95); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.legal-modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legal-modal-title {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+
+.legal-modal-close {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+    transition: color var(--transition-fast);
+}
+
+.legal-modal-close:hover {
+    color: var(--accent-color);
+}
+
+.legal-modal-body {
+    padding: 24px;
+    overflow-y: auto;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.legal-modal-body section {
+    margin-bottom: 20px;
+}
+
+.legal-modal-body h4 {
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-saas-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer-saas-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
